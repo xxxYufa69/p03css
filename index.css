@@ -1,0 +1,32 @@
+body{
+    background: aqua;
+    font-family: sans-serif;
+}
+.judul{
+    text-align: center;
+    color: black;
+}
+.tabel{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td{
+    border: 2px solid black;
+    text-align:center ;
+    padding: 15px;
+}
+tr:nth-child(even) {
+    background-color: orange;
+}
+th:hover{
+    background-color:blue;
+}
+td:hover{
+    background-color: dimgrey;
+}
+.tabel-utama{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
